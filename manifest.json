@@ -5,8 +5,10 @@
   "permissions": ["declarativeContent", "tabs"],
   "background": {
     "scripts": ["background.js"],
-    "persistent": false
+    "persistent": true
   },
-  "browser_action": {},
+  "page_action": {
+    "default_popup": "popup.html"
+  },
   "manifest_version": 2
 }

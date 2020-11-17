@@ -1,0 +1,20 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+}
+
+button {
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  color: #fff;
+  background-color: gray;
+}

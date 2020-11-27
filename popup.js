@@ -26,11 +26,21 @@ giveaways.addEventListener("click", () => {
   moveTab({
     url: [
       "https://gleam.io/*",
-      "https://twitter.com/*",
-      "https://discord.com/*",
       "https://playr.gg/giveaway/*",
       "https://www.rafflecopter.com/*",
       "https://kingsumo.com/*",
+    ],
+  });
+});
+
+let others = document.querySelector("#others");
+others.addEventListener("click", () => {
+  moveTab({
+    url: [
+      "https://discord.com/*",
+      "https://twitter.com/*",
+      "https://www.bookbub.com/authors/*",
+      "https://www.youtube.com/*",
     ],
   });
 });

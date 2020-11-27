@@ -21,6 +21,20 @@ const moveTab = (query) => {
   });
 };
 
+let giveaways = document.querySelector("#giveaways");
+giveaways.addEventListener("click", () => {
+  moveTab({
+    url: [
+      "https://gleam.io/*",
+      "https://twitter.com/*",
+      "https://discord.com/*",
+      "https://playr.gg/giveaway/*",
+      "https://www.rafflecopter.com/*",
+      "https://kingsumo.com/*",
+    ],
+  });
+});
+
 let gleam = document.querySelector("#gleam");
 gleam.addEventListener("click", () => {
   moveTab({ url: "https://gleam.io/*" });
@@ -54,6 +68,11 @@ bookbub.addEventListener("click", () => {
 let youtube = document.querySelector("#youtube");
 youtube.addEventListener("click", () => {
   moveTab({ url: "https://www.youtube.com/*" });
+});
+
+let kingsumo = document.querySelector("#kingsumo");
+kingsumo.addEventListener("click", () => {
+  moveTab({ url: "https://kingsumo.com/*" });
 });
 
 let cycleTabs = document.querySelector("#cycleTabs");

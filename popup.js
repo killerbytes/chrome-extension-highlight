@@ -29,6 +29,7 @@ giveaways.addEventListener("click", () => {
       "https://playr.gg/giveaway/*",
       "https://www.rafflecopter.com/*",
       "https://kingsumo.com/*",
+      "https://www.bookbub.com/authors/*",
     ],
   });
 });

@@ -29,7 +29,9 @@ giveaways.addEventListener("click", () => {
       "https://playr.gg/giveaway/*",
       "https://www.rafflecopter.com/*",
       "https://kingsumo.com/*",
-      "https://www.bookbub.com/authors/*",
+      "https://swps.me/*",
+      "https://sweepsdb.com/*",
+      "https://*/giveaways/*",
     ],
   });
 });
@@ -40,8 +42,8 @@ others.addEventListener("click", () => {
     url: [
       "https://discord.com/*",
       "https://twitter.com/*",
-      "https://www.bookbub.com/authors/*",
       "https://www.youtube.com/*",
+      "https://www.bookbub.com/*",
     ],
   });
 });
@@ -73,7 +75,7 @@ rafflecopter.addEventListener("click", () => {
 
 let bookbub = document.querySelector("#bookbub");
 bookbub.addEventListener("click", () => {
-  moveTab({ url: "https://www.bookbub.com/authors/*" });
+  moveTab({ url: "https://www.bookbub.com/*" });
 });
 
 let youtube = document.querySelector("#youtube");

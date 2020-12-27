@@ -7,6 +7,7 @@
 const moveTab = (query) => {
   chrome.windows.create((window) => {
     chrome.tabs.query(query, function (tabs) {
+      console.log(tabs, query);
       chrome.tabs.move(
         tabs.map((i) => i.id),
         { windowId: window.id, index: 0 },
@@ -32,6 +33,7 @@ giveaways.addEventListener("click", () => {
       "https://swps.me/*",
       "https://sweepsdb.com/*",
       "https://*/giveaways/*",
+      "file:///*/bookmarks*",
     ],
   });
 });

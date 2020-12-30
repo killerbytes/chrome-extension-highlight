@@ -33,6 +33,7 @@ giveaways.addEventListener("click", () => {
       "https://swps.me/*",
       "https://sweepsdb.com/*",
       "https://*/giveaways/*",
+      "http://*/giveaways/*",
       "file:///*/bookmarks*",
     ],
   });

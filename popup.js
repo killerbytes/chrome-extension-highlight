@@ -34,6 +34,8 @@ giveaways.addEventListener("click", () => {
       "https://sweepsdb.com/*",
       "https://*/giveaways/*",
       "http://*/giveaways/*",
+      "https://sweepwidget.com/view/*",
+      "https://app.viralsweep.com/*",
       "file:///*/bookmarks*",
     ],
   });
